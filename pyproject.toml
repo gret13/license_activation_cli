@@ -1,0 +1,6 @@
+[project]
+name = "license-activation-cli"
+version = "0.1.0.0"
+description = "Interactive Windows CLI for license activation"
+requires-python = ">=3.13"
+dependencies = []
