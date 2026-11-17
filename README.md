@@ -40,27 +40,26 @@ python --version
 
 **Из исходного кода:**
 
+- установить необходимые зависимости
 ```powershell
 pip install .
 ```
-
-```powershell
-Copy-Item config.example.toml config.toml
+- создать файл настроек
 ```
+# Windows
+Copy-Item config.example.toml config.toml
 
-**Linux:**
-
-```bash
+#Linux
 cp config.example.toml config.toml
 ```
-
-
+- запустатить
 ```powershell
 python cli.py
 ```
 
 **Из EXE:**
 
+Создать `config.toml` и положить рядом с `LicenseClient.exe`   
 Запустите `LicenseClient.exe`, введите лицензионный ключ и дождитесь ответа сервера.
 
 ## Разработка
