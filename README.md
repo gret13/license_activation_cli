@@ -45,6 +45,17 @@ pip install .
 ```
 
 ```powershell
+Copy-Item config.example.toml config.toml
+```
+
+**Linux:**
+
+```bash
+cp config.example.toml config.toml
+```
+
+
+```powershell
 python cli.py
 ```
 
